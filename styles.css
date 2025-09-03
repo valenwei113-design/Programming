@@ -30,15 +30,16 @@ header h1 {
 
 /* Columns */
 .left {
-  flex: 1;
+  width: 180px;
   padding: 20px;
-  background: #87ad6231;
+  background: #6cbacf31;
+
 }
 
 .middle {
-  flex: 2;
+  width: 400px;
   padding: 20px;
-  background: #87ad6231;
+  background: #6cbacf31;
 }
 .right {
   flex: 3;
@@ -46,11 +47,25 @@ header h1 {
   background: #6cbacf31;
 }
 
-
-.left h2, .right h2, .middle {
+.left h2 {
   margin-top: 0;
   font-size: 30px;
   border-bottom: 2.5px solid #587bd4;
   padding-bottom: 5px;
   color: #587bd4;
 }
+
+.middle h2{
+  margin-top: 0;
+  font-size: 30px;
+  padding-bottom: 5px;
+  color: #587bd4;
+}
+
+.right h2 {
+  margin-top: 0;
+  font-size: 30px;
+  padding-bottom: 5px;
+  color: #587bd4;
+}
+
