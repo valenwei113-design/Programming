@@ -1,0 +1,56 @@
+/* Reset & base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #3a3737;
+  line-height: 1.6;
+}
+
+
+/* Header */
+header {
+  text-align: center;
+  padding: 15px;
+  background-color: #087bd4;
+  color: #f3f6f7;
+}
+
+header h1 {
+  margin:2px;
+  font-size: 40px;
+}
+
+/* column layout */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Columns */
+.left {
+  flex: 1;
+  padding: 20px;
+  background: #87ad6231;
+}
+
+.middle {
+  flex: 2;
+  padding: 20px;
+  background: #87ad6231;
+}
+.right {
+  flex: 3;
+  padding: 20px;
+  background: #6cbacf31;
+}
+
+
+.left h2, .right h2, .middle {
+  margin-top: 0;
+  font-size: 30px;
+  border-bottom: 2.5px solid #587bd4;
+  padding-bottom: 5px;
+  color: #587bd4;
+}
